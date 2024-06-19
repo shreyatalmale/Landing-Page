@@ -1,0 +1,39 @@
+.sp-btn{
+    width: 189px;
+    height: auto;
+    border-radius: 5px;
+    border: 2px solid aliceblue;
+    position: relative;
+    top:-90px;
+    left: 65px;
+    background-color: rgb(46, 191, 223);
+}
+.c-clr{
+    background-color: aquamarine;
+}
+
+ .sml{
+    width:100%;
+    height: 150px;
+ 
+}
+.big{
+    width:100%;
+    height: 300px;
+} 
+@media screen and (max-width:576px) 
+{
+    .sp-btn{
+        width:130px;
+        height:60;
+        position:absolute;
+        top:530px;
+        left: 80px;
+    }
+    .sp-btn h2{
+        font-size:medium;
+    }
+    .sp-btn p{
+        font-size: small;
+    }
+}
